@@ -1,5 +1,6 @@
 package io.github.babiesdev
 
+import io.github.babiesdev.Participant.Rabbit
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.assertThrows
@@ -29,7 +30,7 @@ class RabbitTests {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = [1, 5])
+    @ValueSource(ints = [15, 6])
     fun `한번에 5칸을 초과해서 오른쪽으로 이동할 경우 예외가 발생한다`(moveCount: Int) {
         val rabbit: Participant = Rabbit(Position(5))
 
@@ -38,7 +39,7 @@ class RabbitTests {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = [1, 5])
+    @ValueSource(ints = [15, 6])
     fun `한번에 5칸을 초과해서 왼쪽으로 이동할 경우 예외가 발생한다`(moveCount: Int) {
         val rabbit: Participant = Rabbit(Position(0))
 
