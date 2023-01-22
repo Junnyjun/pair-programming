@@ -1,5 +1,6 @@
 package io.github.babiesdev
 
+import io.github.babiesdev.domain.Position
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.assertDoesNotThrow
