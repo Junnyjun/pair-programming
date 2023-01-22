@@ -3,6 +3,7 @@ package io.github.babiesdev
 import io.github.babiesdev.domain.Participant
 import io.github.babiesdev.domain.Participant.Player
 import io.github.babiesdev.domain.Position
+
 import org.assertj.core.api.Assertions.*
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
