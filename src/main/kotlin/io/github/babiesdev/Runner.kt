@@ -2,7 +2,7 @@ package io.github.babiesdev
 
 import io.github.babiesdev.domain.DEFAULT_PLAYER
 import io.github.babiesdev.domain.DEFAULT_RABBIT
-import io.github.handler.Input
+import io.github.handler.input.Input
 import java.util.*
 
 class Runner {

@@ -1,4 +1,4 @@
-package io.github.handler
+package io.github.handler.input
 
 import kotlin.random.Random
 
